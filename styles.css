@@ -50,7 +50,11 @@ nav ul li a {
 }
 a:hover {
     text-decoration: none;
+<<<<<<< HEAD
+    color #000;
+=======
     color: yellow;
+>>>>>>> c5b11a1dd4fc6ce52380d9769342088e69ec0ab2
 
 a:active {
     text-decoration: none;

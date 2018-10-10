@@ -1,13 +1,8 @@
-/* 
-
+/*
 Jessica Kincaid
-
-LC101 HTML-Me-Something 
-
+LC101 HTML-Me-Something
 October 8, 2018
-
-This css will incorporate styles for margin, padding, element, class and id. 
-
+This css will incorporate styles for margin, padding, element, class and id.
 */
 * {
     font-family: 'Ubuntu', sans-serif;
@@ -17,6 +12,8 @@ body {
 }
 #container {
     margin: 1em;
+    width: 90%;
+    margin: 5%;
 }
 header {
     text-align: center;
@@ -36,50 +33,47 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
-    font-size: 32px;
+}
+
+a {
     color: #fff;
-    text-decoration: none;
-    background-color: red;
+    font-size: 32px;
     margin: 5px;
     padding: 7px;
     border-radius: 3px;
-}
-nav ul li a {
-    color: #fff;
     text-decoration: none;
+    background-color: red;
 }
 a:hover {
     text-decoration: none;
-<<<<<<< HEAD
     color #000;
-=======
-    color: yellow;
->>>>>>> c5b11a1dd4fc6ce52380d9769342088e69ec0ab2
-
+  }
 a:active {
     text-decoration: none;
     color: #fff;
-
+}
 a:visited {
     text-decoration: none;
     color: #fff;
 }
 .main-content {
+  width: 75%;
     position: relative;
-    margin-left: 3em;
-}
-section {
-    width: 80%;
     margin-left: 15%;
 }
+section {
+}
 h2 {
-    font-size: 24px;
+    font-size: 30px;
 }
 h3 {
-    font-size: 28px;
+    font-size: 24px;
 }
 img {
-    max-width: 40%;
-    padding: 2em;
+    max-width: 75%;
+    padding: 1em;
     border: 3px solid red;
+}
+footer {
+  margin: 2em;
 }

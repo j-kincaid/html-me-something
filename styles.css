@@ -56,7 +56,8 @@ a:active {
 
 a:visited {
     text-decoration: none;
-    color: #fff;
+    background-color: #000;
+    border: 3px solid red;
  }
 .main-content {
   width: 75%;

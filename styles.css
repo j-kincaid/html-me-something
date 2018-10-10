@@ -1,8 +1,21 @@
+<<<<<<< HEAD
 /*
 Jessica Kincaid
 LC101 HTML-Me-Something
 October 8, 2018
 This css will incorporate styles for margin, padding, element, class and id.
+=======
+/* 
+
+Jessica Kincaid
+
+LC101 HTML-Me-Something 
+
+October 8, 2018
+
+This css will incorporate styles for margin, padding, element, class and id. 
+
+>>>>>>> 5e144d311ba8e3f23558c35d566b03bf536bd665
 */
 * {
     font-family: 'Ubuntu', sans-serif;
@@ -12,8 +25,11 @@ body {
 }
 #container {
     margin: 1em;
+<<<<<<< HEAD
     width: 90%;
     margin: 5%;
+=======
+>>>>>>> 5e144d311ba8e3f23558c35d566b03bf536bd665
 }
 header {
     text-align: center;
@@ -33,6 +49,7 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
+<<<<<<< HEAD
 }
 
 a {
@@ -52,11 +69,38 @@ a:active {
     text-decoration: none;
     color: #fff;
 }
+=======
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    background-color: red;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 3px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+<<<<<<< HEAD
+    color #000;
+=======
+    color: yellow;
+>>>>>>> c5b11a1dd4fc6ce52380d9769342088e69ec0ab2
+
+a:active {
+    text-decoration: none;
+    color: #fff;
+
+>>>>>>> 5e144d311ba8e3f23558c35d566b03bf536bd665
 a:visited {
     text-decoration: none;
     color: #fff;
 }
 .main-content {
+<<<<<<< HEAD
   width: 75%;
     position: relative;
     margin-left: 15%;
@@ -77,3 +121,23 @@ img {
 footer {
   margin: 2em;
 }
+=======
+    position: relative;
+    margin-left: 3em;
+}
+section {
+    width: 80%;
+    margin-left: 15%;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 28px;
+}
+img {
+    max-width: 40%;
+    padding: 2em;
+    border: 3px solid red;
+}
+>>>>>>> 5e144d311ba8e3f23558c35d566b03bf536bd665
